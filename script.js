@@ -1,5 +1,5 @@
 // Remplace ces deux valeurs par les tiennes une fois la feuille créée
-const SHEET_ID = "https://docs.google.com/spreadsheets/d/1CVjKzyqHetHLWG1sjk0ii22R-N5H-ICPkp6azBTSopU/edit?usp=sharing";
+const SHEET_ID = "1CVjKzyqHetHLWG1sjk0ii22R-N5H-ICPkp6azBTSopU";
 const API_KEY = "AIzaSyC2GaNP1g03AoPvDqauEiBTLCN8geqN9zw";
 
 const SHEET_NAME = "Réservations";
