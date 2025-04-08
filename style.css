@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f5f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-page {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .dashboard-header {
+    background: #1976d2;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+  }
+  
+  .dashboard-header button {
+    background: white;
+    color: #1976d2;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reservation-form {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .reservation-form input, .reservation-form label {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  #calendar {
+    margin: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tableau de bord - Chalet Chaumonot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css' rel='stylesheet' />
+</head>
+<body>
+  <div class="dashboard-header">
+    <h1>Réservation Chalet Chaumonot</h1>
+    <button onclick="logout()">Déconnexion</button>
+  </div>
+
+  <div class="reservation-form">
+    <h2>Nouvelle réservation</h2>
+    <form id="booking-form">
+      <input type="text" id="name" placeholder="Votre nom" required>
+      <input type="number" id="chalet" placeholder="Numéro de chalet" required min="1">
+      <label>Date de début : <input type="date" id="start-date" required></label>
+      <label>Date de fin : <input type="date" id="end-date" required></label>
+      <button type="submit">Réserver</button>
+    </form>
+    <p id="form-message"></p>
+  </div>
+
+  <div id="calendar"></div>
+
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+  <script src="script.js"></script>
+</body>
+</html>
