@@ -2,7 +2,7 @@
 const SHEET_ID = "1CVjKzyqHetHLWG1sjk0ii22R-N5H-ICPkp6azBTSopU";
 const API_KEY = "AIzaSyC2GaNP1g03AoPvDqauEiBTLCN8geqN9zw";
 
-const SHEET_NAME = "Réservations";
+const SHEET_NAME = "chamonau-reservations";
 
 document.addEventListener("DOMContentLoaded", function () {
   const calendarEl = document.getElementById("calendar");
